@@ -29,4 +29,5 @@ let checkRow (items : int array) =
     let max = items |> Array.max
     max - min
 
-let result = rows |> Array.sumBy checkRow
+let result1 = rows |> Array.sumBy checkRow
+
